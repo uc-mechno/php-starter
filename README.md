@@ -1,6 +1,6 @@
 # PHP Starter Template
 
-簡易的なPHP Webサイト開発用のスターターテンプレートです。
+簡易的なPHP Webサイト開発用のスターターテンプレートです。  
 BrowserSyncによるライブリロードを含む開発環境を提供します。
 
 ## 📁 ファイル構造
@@ -48,7 +48,13 @@ BrowserSyncによるライブリロードを含む開発環境を提供します
 
 ### 1. 必要な環境
 - PHP 7.4以上
-- Node.js (BrowserSync用)
+- Node.js 18以上
+
+### 1. 必要なパッケージ
+browser-syncのインストール（グローバル）
+```
+% npm install -g browser-sync
+```
 
 ### 2. 開発環境の起動
 
@@ -89,16 +95,6 @@ includeファイルのパスを取得
 include(include_path('header.php'));
 // includes/header.php を適切な相対パスで読み込み
 ```
-
-### 2. モジュラー構造
-- ヘッダー、フッター、ナビゲーションを別ファイルで管理
-- 再利用可能なコンポーネント設計
-
-### 3. 開発環境最適化
-- BrowserSyncによるライブリロード
-- Sass/SCSS自動コンパイル
-- Prettierによるコード整形
-- CSSCombによるCSS整列
 
 ## 🛠️ 使用方法
 
