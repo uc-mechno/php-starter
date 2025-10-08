@@ -1,0 +1,2 @@
+<?php
+// top-news.php
