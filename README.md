@@ -1,7 +1,7 @@
 # PHP Starter Template
 
 簡易的なPHP Webサイト開発用のスターターテンプレートです。  
-BrowserSyncによるライブリロードを含む開発環境を提供します。
+BrowserSyncによるライブリロードに対応。
 
 ## 📁 ファイル構造
 
