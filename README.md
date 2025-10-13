@@ -18,8 +18,7 @@ BrowserSyncによるライブリロードに対応。
 │   ├── config.php              # 基本設定
 │   └── functions.php           # 共通関数
 ├── development/                 # 開発用アセット
-│   ├── css/
-│   │   └── style.scss          # メインスタイル
+│   ├── css/                    # CSSファイル
 │   ├── img/                    # 画像ファイル
 │   └── js/                     # JavaScriptファイル
 ├── includes/                    # インクルード用PHPファイル
@@ -27,8 +26,6 @@ BrowserSyncによるライブリロードに対応。
 │   ├── favicon.php             # ファビコン設定
 │   ├── font.php                # フォント読み込み
 │   ├── footer.php              # フッター
-│   ├── gnav.php                # グローバルナビゲーション
-│   ├── google-map.php          # Google Maps
 │   ├── gtag-body.php           # Google Tag Manager (body)
 │   ├── gtag-head.php           # Google Tag Manager (head)
 │   ├── header.php              # ヘッダー
